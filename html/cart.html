@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div id="logged">
+      <nav class="fixed-top w-100">
+        <div
+          class="container d-flex align-items-center p-1 justify-content-between"
+        >
+          <h2>E-Store</h2>
+          <div
+            class="welcomName align-items-center d-flex justify-content-start"
+          >
+            <p class="text-white pe-5"><span id="loggedName">User</span></p>
+            <button
+              class="btn btn-outline-warning"
+              type="submit"
+              id="logoutButton"
+              onclick="logoutClick()"
+            >
+              Logout
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div class="welcomeName text-white"></div>
+    </div>
+    <div id="kt"></div>
+    <script src="../js/cart.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
